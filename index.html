@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to Do's </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">Todo List</h1>
+            <form class="search">
+                <input class="form-control m-auto" type="text" name="search" placeholder="search todos" >
+            </form>
+        </header>
+        <!-- List -->
+        <ul class="list-group todos mx-auto text-light">
+            <li class="list-group-item  d-flex justify-content-between align-items-center">
+                <span>Are you Sure ! you searched Something</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item  d-flex justify-content-between align-items-center">
+                <span>Buy Some Milk</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item  d-flex justify-content-between align-items-center">
+                <span>get SomeSleep</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+        </ul>
+
+    <form class="add text-center my-4">
+        <label  class="text-light">Add a new toDo...</label>
+        <input class="form-control m-auto" type="text" name="add" />
+    </form>    
+    </div>
+
+
+
+
+    <script src="app.js"></script> 
+    <script src="https://kit.fontawesome.com/5b6380adae.js" crossorigin="anonymous"></script>
+</body>
+</html>
